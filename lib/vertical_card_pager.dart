@@ -246,11 +246,16 @@ class CardControllerWidget extends StatelessWidget {
                   child: images![i],
                 ),
                 Align(
-                    child: Text(
-                  titles![i],
-                  style: titleTextStyle.copyWith(fontSize: getFontSize(i)),
-                  textAlign: TextAlign.center,
-                )),
+                  child: Padding(
+                    padding: EdgeInsets.symmetric(vertical: 4.0, horizontal: 8.0),
+                    child: AutoSizeText(
+                      titles![i],
+                      maxLines: 1,
+                      style: titleTextStyle.copyWith(fontSize: getFontSize(i)),
+                      textAlign: TextAlign.center,
+                    )
+                  )
+                ),
               ],
             ),
           ),

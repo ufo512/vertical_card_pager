@@ -17,6 +17,8 @@
 
 Use dynamic and beautiful card view pagers to help you create great apps.
 
+THIS FORK USES <a href="https://pub.dev/packages/auto_size_text">auto_size_text</a> PACKAGE TO SET THE TEXT SIZE OF CARD TITLES.
+
 ## Preview
 
 <div align="center">
